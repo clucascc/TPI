@@ -1,0 +1,77 @@
+<!DOCTYPE  yhtml>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio DR.ernesto guevara </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="c:\Users\Lucas\Pictures\images.png" alt="Logo de la escuela" id="logo">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button type="button">&#128269;</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="#home" title="Ir a inicio">Inicio</a></li>
+                <li><a href="#about" title="Leer sobre nosotros">Sobre Nosotros</a></li>
+                <li><a href="#programs" title="Conocer nuestros programas">Programas</a></li>
+                <li><a href="#courses" title="Ver cursos">Cursos</a></li>
+                <li><a href="#grades" title="Ver notas">Notas</a></li>
+                <li><a href="#contact" title="Ver información de contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="home" class="box">
+                <h1>Bienvenido a la plataforma del Colegio DR.ernesto Guevara </h1>
+            </section>
+
+            <section id="about" class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una escuela que  Ofrece formación secundaria y técnica, incluyendo especializaciones como Técnico en Informática Profesional y Bachiller Orientado en Informática. </p>
+            </section>
+
+            <section id="programs" class="box">
+                <h2>Programas</h2>
+                <p>Conoce nuestros programas</p>
+                <ul>
+                    <li>tecnico en informatica</li>
+                    <li>tecnico en Electrónica</li>
+                    <li>tecnico en administración</li>
+                    <li>Tecnico en Construccion</li>
+                </ul>
+                
+            </section>
+
+            <section id="contact" class="box">
+                <h2>Contacto</h2>
+                <p>Nuestros contactos 
+                    <li>.Telefono:2964-434030 </li>
+                    <li>.Correo electronico:cpdeguevara.sec@tdf.edu.ar</li>
+                    <li>.Red social:<a href="//www.facebook.com/colegioguevara/?locale=es_LA"target="_blank">Facebook</a></p></li>
+            </section>
+            <section id="grades" class ="box">
+                <h2>Notas </h2>
+                <p>notas alumno </p>
+            </slection>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            &copy; "2024 - 30º ANIVERSARIO DE LA DISPOSICIÓN TRANSITORIA PRIMERA DE LA CONSTITUCIÓN NACIONAL DE 1994"
+
+        </div>
+    </footer>
+</body>
+</html>
