@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio DR. Ernesto Guevara</title>
+    <link rel="stylesheet" href="stylepagina.css">
+</head>
+<body>
+
+<div id="login-container" class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+        <div class="input-group">
+            <box-icon name='mail-send'></box-icon>
+            <label for="email">Correo Electrónico:</label>
+            <i class='bx bxs-envelope input-icon'></i>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <span class="box-icon">👤</span>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <span class="box-icon">🔒</span>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="login-btn">Iniciar Sesión</button>
+        <p id="error-message" style="color: red;"></p>
+    </form>
+</div>
+
+<div id="main-content" class="container hidden">
+    <header>
+        <div class="container">
+            <img src="c:\Users\Lucas\Downloads\5db847a4-b675-4622-bafb-a60f5cd674be.png" alt="Logo del Colegio DR. Ernesto Guevara" id="logo"> 
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar..." aria-label="Buscar">
+                <button type="button" aria-label="Buscar">&#128269;</button>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="#home" title="Ir a inicio">Inicio</a></li>
+                <li><a href="#about" title="Leer sobre nosotros">Sobre Nosotros</a></li>
+                <li><a href="#programs" title="Conocer nuestros programas">Programas</a></li>
+                <li><a href="#courses" title="Ver cursos">Cursos</a></li>
+                <li><a href="#grades" title="Ver notas">Notas alumno</a></li>
+                <li><a href="#contact" title="Ver información de contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="home" class="box">
+                <h1>Bienvenido a la plataforma del Colegio DR. Ernesto Guevara</h1>
+            </section>
+
+            <section id="about" class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una escuela que ofrece formación secundaria y técnica, incluyendo especializaciones como 
+                    Técnico en Informática Profesional y Bachiller Orientado en Informática.</p>
+            </section>
+
+            <section id="programs" class="box">
+                <h2>Programas</h2>
+                <ul>
+                    <li>Técnico en Informática</li>
+                    <li>Técnico en Electrónica</li>
+                    <li>Técnico en Administración</li>
+                    <li>Técnico en Construcción</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="box">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Teléfono: 2964-434030</li>
+                    <li>Correo electrónico: cpdeguevara.sec@tdf.edu.ar</li>
+                    <li>Red social: <a href="//www.facebook.com/colegioguevara/?locale=es_LA" target="_blank">Facebook</a></li>
+                </ul>
+            </section>
+
+            <section id="grades" class="box">
+                <h2>Notas alumno</h2>
+                <div class="table-container">
+                    <h2>Subir Notas</h2>
+                    <div class="report-card-container">
+                        <h2>Boletín de Notas</h2>
+                    
+                        <div class="student-info">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" class="student-input" placeholder="Ingrese el nombre del estudiante">
+                            
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" class="student-input" placeholder="Ingrese el apellido del estudiante">
+                        </div>
+                    
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Asignatura</th>
+                                    <th>Primer Trimestre</th>
+                                    <th>Segundo Trimestre</th>
+                                    <th>Tercer Trimestre</th>
+                                    <th>Comentario</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Matemáticas</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>ingles</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>auto gestion</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>asistencia</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>Hardware</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>Programacion</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>Redes</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                                <tr>
+                                    <td>Marco juridico</td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                                    <td><input type="text" class="comment-input"></td>
+                                </tr>
+                            
+                            
+                            </tbody>
+                        </table>
+                        <button class="save-btn">Guardar Boletín</button>
+                    </div>
+ 
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            &copy; 2024 - 30º ANIVERSARIO DE LA DISPOSICIÓN TRANSITORIA PRIMERA DE LA CONSTITUCIÓN NACIONAL DE 1994
+        </div>
+    </footer>
+</div>
+
+<script src="loginpagina.js"></script>
+</body>
+</html>
