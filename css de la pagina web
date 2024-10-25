@@ -1,0 +1,249 @@
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url('c:/Users/Lucas/Downloads/dff9fcc4-4917-40e1-bafd-504791de303c.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #ff0000;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: #ff0000;
+    color: #ff0000;
+    padding: 10px 0;
+}
+
+header img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.search-bar {
+    float: right;
+}
+
+.search-bar input {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 7px;
+    background-color: #fd7777;
+    border: none;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ff7474;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: rgb(255, 13, 13);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #333;
+}
+
+main .box {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .box h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(247, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+    .menu ul li {
+        float: none;
+        width: 100%;
+    }
+
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .search-bar {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+.report-card-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+.student-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.student-input {
+    width: 45%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+thead {
+    background-color: #ff3535;
+    color: rgb(255, 5, 5);
+    font-weight: bold;
+}
+
+.grade-input, .comment-input {
+    width: 80%;
+    padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.save-btn {
+    padding: 10px 20px;
+    background-color: #fc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+.save-btn:hover {
+    background-color: #f30000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
