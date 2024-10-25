@@ -1,0 +1,29 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        validateLogin();
+    });
+});
+
+function validateLogin() {
+    const email = document.getElementById("email").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const errorMessage = document.getElementById("error-message");
+
+    if (email === "" || username === "" || password === "") {
+        errorMessage.textContent = "Todos los campos son obligatorios";
+        return false;
+    }
+
+    if (password.length < 6) {
+        errorMessage.textContent = "La contraseña debe tener al menos 6 caracteres";
+        return false;
+    }
+
+    errorMessage.textContent = "";
+    document.getElementById("login-container").classList.add("hidden");
+    document.getElementById("main-content").classList.remove("hidden");
+
+    return false; 
+}
