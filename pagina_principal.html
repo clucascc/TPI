@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - Colegio DR. Ernesto Guevara</title>
+    <link rel="stylesheet" href="css/pagina.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="c:\Users\Lucas\Downloads\5db847a4-b675-4622-bafb-a60f5cd674be.png" alt="Logo del Colegio DR. Ernesto Guevara" id="logo">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar..." aria-label="Buscar">
+                <button type="button" aria-label="Buscar" onclick="performSearch()">
+                    <span class="search-icon">🔍</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="programas.html">Programas</a></li>
+                <li><a href="boletin.html">Notas Alumno</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="login.html" id="logoutBtn">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <h1>Bienvenido al Colegio DR. Ernesto Guevara</h1>
+                <p>Formando el futuro con excelencia académica</p>
+            </section>
+
+            <section id="about" class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Somos una institución educativa comprometida con la formación integral de nuestros estudiantes,
+                    ofreciendo programas técnicos y bachilleratos especializados.
+                </p>
+            </section>
+
+            <section id="contact" class="box">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>📞 Teléfono: 2964-434030</li>
+                    <li>✉️ Email: <a href="mailto:cpdeguevara.sec@tdf.edu.ar">cpdeguevara.sec@tdf.edu.ar</a></li>
+                    <li>📱 Facebook: <a href="https://www.facebook.com/colegioguevara/" target="_blank" rel="noopener noreferrer">Colegio Guevara</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Colegio DR. Ernesto Guevara</p>
+        </div>
+    </footer>
+    <script src="js/pagina.js"></script>
+
+</body>
+</html>

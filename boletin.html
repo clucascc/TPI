@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletín de Notas - Colegio DR. Ernesto Guevara</title>
+    <link rel="stylesheet" href="css/Boletín.css">
+</head>
+<body>
+
+<div class="report-card-container">
+    <h2>Boletín de Notas</h2>
+
+    <div class="student-info">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="student-input" placeholder="Ingrese el nombre del estudiante">
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" class="student-input" placeholder="Ingrese el apellido del estudiante">
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Asignatura</th>
+                <th>Primer Trimestre</th>
+                <th>Segundo Trimestre</th>
+                <th>Tercer Trimestre</th>
+                <th>Comentario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matemáticas</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>ingles</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>auto gestion</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>asistencia</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>Hardware</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>Programacion</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>Redes</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+            <tr>
+                <td>Marco juridico</td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="number" min="0" max="10" step="0.1" class="grade-input"></td>
+                <td><input type="text" class="comment-input"></td>
+            </tr>
+        
+        
+        </tbody>
+    </table>
+    <button class="save-btn">Guardar Boletín</button>
+</div>
+
+</body>
+</html>
